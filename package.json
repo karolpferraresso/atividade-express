@@ -1,0 +1,18 @@
+{
+  "name": "atividade-express",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:p1": "tsx watch projeto1-mensagem/src/server.ts",
+    "dev:p2": "tsx watch projeto2-soma/src/server.ts",
+    "dev:p3": "tsx watch projeto3-login/src/server.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
